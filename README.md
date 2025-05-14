@@ -5,9 +5,11 @@ It represents a fictional team of designers offering creative services.
 
 This project helped me practice HTML, SCSS, and a little JavaScript, all without a bundler. It was built with a focus on clean layout, responsive design, and with semantic structure.
 
+
 **Live Demo**
 
 ➡️ Coming soon on GitHub Pages
+
 
 **Technologies Used**
 
@@ -15,7 +17,9 @@ HTML5
 SCSS
 Vanilla JavaScript (a small amount)
 
+
 No frameworks or bundlers used
+
 
 **Features**
 
@@ -24,12 +28,14 @@ Modern design
 Custom SCSS styles
 Simple interactive elements
 
+
 **Lessons Learned**
 
 Structuring HTML and styling with SCSS
 Building without frameworks
 Writing semantic and accessible code
 Preparing a project for GitHub Pages
+
 
 **How to Run Locally**
 
@@ -39,6 +45,7 @@ cd web-studio-website
 open index.html
 ```
 Or simply open `index.html` in your browser.
+
 
 **License**
 
