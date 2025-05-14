@@ -1,0 +1,87 @@
+.team {
+  padding: 94px 0;
+  background-color: #f5f4fa;
+
+  @media screen and (max-width: 1023px) {
+    padding: 60px 0;
+  }
+}
+
+.team-item {
+  border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: #fff;
+
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
+}
+
+.worker-img {
+  width: 270px;
+  height: 260px;
+
+  @media screen and (max-width: 767px) {
+    object-fit: cover;
+    width: auto;
+    height: auto;
+  }
+}
+
+.worker-content {
+  padding: 30px 30px 16px;
+}
+
+.worker-name {
+  margin-bottom: 10px;
+  color: #212121;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+}
+
+.worker-spec {
+  color: #757575;
+}
+
+.social-link-wrapper {
+  display: flex;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  @media screen and (max-width: 1023px) {
+    margin-bottom: 24px;
+  }
+}
+
+.social-item {
+  overflow: hidden;
+  border-radius: 50%;
+  transition: background-color 200ms linear;
+}
+
+.social-item:hover {
+  background-color: $accent-color;
+}
+
+.social-link {
+  padding: 12px;
+  display: block;
+  width: 44px;
+  height: 44px;
+}
+
+.social-link-icon {
+  width: 20px;
+  height: 20px;
+  color: #afb1b8;
+  transition: color 200ms linear;
+}
+
+.social-item:hover .social-link-icon {
+  color: #fff;
+}

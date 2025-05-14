@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn.prod.website-files.com/5f15081919fdf673994ab5fd/65fd099bff605314d1e5b880_Webstudio-Logo.svg"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./scss/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-inner">
+        <nav class="navigation">
+          <a class="logo" href="./index.html"
+            ><span class="accent-logo-word">Web</span>Studio</a
+          >
+          <button class="burger-button">
+            <svg class="burger-icon">
+              <use href="./images/sprite.svg#burger"></use>
+            </svg>
+          </button>
+
+          <ul class="list">
+            <li class="item">
+              <a class="nav-link" href="./index.html">Studio</a>
+            </li>
+            <li class="item">
+              <a class="nav-link active" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="item">
+              <a class="nav-link" href="#footer">Contacts</a>
+            </li>
+          </ul>
+          <button class="burger-close-button">
+            <svg class="burger-close-icon">
+              <use href="./images/sprite.svg#burger-close"></use>
+            </svg>
+          </button>
+        </nav>
+        <ul class="contact-list">
+          <li>
+            <a class="contact-link email-link" href="mailto:info@devstudio.com"
+              ><svg class="contact-icon mail-icon">
+                <use href="./images/sprite.svg#envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li>
+            <a class="contact-link phone-link" href="tel:+380961111111"
+              ><svg class="contact-icon smartphone-icon">
+                <use href="./images/sprite.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
+        </ul>
+        <ul class="header-social-list">
+          <li class="header-social-item">
+            <a class="header-social-link" instagram href="">Instagram</a>
+          </li>
+          <li class="header-social-item">
+            <a class="header-social-link" href="">Twitter</a>
+          </li>
+          <li class="header-social-item">
+            <a class="header-social-link facebook-padding-remover" href=""
+              >Facebook</a
+            >
+          </li>
+          <li class="header-social-item">
+            <a class="header-social-link linkedin-padding-remover" href=""
+              >LinkedIn</a
+            >
+          </li>
+        </ul>
+      </div>
+    </header>
+    <section class="sample">
+      <div class="container">
+        <h1 class="visually-hidden">Portfolio</h1>
+        <nav class="portfolio-navigation" aria-label="secondary navigation">
+          <ul class="button-portfolio-group">
+            <li><button class="portfolio-button">All</button></li>
+            <li><button class="portfolio-button">Web-sites</button></li>
+            <li><button class="portfolio-button">Apps</button></li>
+            <li><button class="portfolio-button">Design</button></li>
+            <li><button class="portfolio-button">Marketing</button></li>
+          </ul>
+        </nav>
+        <ul class="portfolio-list">
+          <li class="work-item">
+            <a href=""
+              ><div class="work-content">
+                <img
+                  class="work-img"
+                  src="./images/website-1.webp"
+                  alt="Website sample 1"
+                />
+                <div class="work-description-wrapper">
+                  <p class="work-description">
+                    The resource offers comprehensive offers with different
+                    levels of functionality and services. All this will allow
+                    the visitor to get comprehensive information about a company
+                    or an individual.
+                  </p>
+                </div>
+              </div>
+              <div class="work-info">
+                <h2 class="work-name">Technopark</h2>
+                <span class="sample-spec">Website</span>
+              </div></a
+            >
+          </li>
+          <li class="work-item">
+            <a href="">
+              <div class="work-content">
+                <img
+                  class="work-img"
+                  src="./images/design-1.webp"
+                  alt="Design sample 1"
+                />
+                <div class="work-description-wrapper">
+                  <p class="work-description">
+                    The resource offers comprehensive offers with different
+                    levels of functionality and services. All this will allow
+                    the visitor to get comprehensive information about a company
+                    or an individual.
+                  </p>
+                </div>
+              </div>
+              <div class="work-info">
+                <h2 class="work-name">Poster New Orlean vs Golden Star</h2>
+                <span class="sample-spec">Design</span>
+              </div></a
+            >
+          </li>
+          <li class="work-item">
+            <a href="">
+              <div class="work-content">
+                <img
+                  class="work-img"
+                  src="./images/app-1.webp"
+                  alt="App sample 1"
+                />
+                <div class="work-description-wrapper">
+                  <p class="work-description">
+                    The resource offers comprehensive offers with different
+                    levels of functionality and services. All this will allow
+                    the visitor to get comprehensive information about a company
+                    or an individual.
+                  </p>
+                </div>
+              </div>
+              <div class="work-info">
+                <h2 class="work-name">Restaurant Seafood</h2>
+                <span class="sample-spec">App</span>
+              </div></a
+            >
+          </li>
+          <li class="work-item">
+            <a href="">
+              <div class="work-content">
+                <img
+                  class="work-img"
+                  src="./images/marketing-1.webp"
+                  alt="Marketing sample 1"
+                />
+                <div class="work-description-wrapper">
+                  <p class="work-description">
+                    The resource offers comprehensive offers with different
+                    levels of functionality and services. All this will allow
+                    the visitor to get comprehensive information about a company
+                    or an individual.
+                  </p>
+                </div>
+              </div>
+
+              <div class="work-info">
+                <h2 class="work-name">Project Prime</h2>
+                <span class="sample-spec">Marketing</span>
+              </div></a
+            >
+          </li>
+          <li class="work-item">
+            <a href="">
+              <div class="work-content">
+                <img
+                  class="work-img"
+                  src="./images/app-2.webp"
+                  alt="App sample 2"
+                />
+                <div class="work-description-wrapper">
+                  <p class="work-description">
+                    The resource offers comprehensive offers with different
+                    levels of functionality and services. All this will allow
+                    the visitor to get comprehensive information about a company
+                    or an individual.
+                  </p>
+                </div>
+              </div>
+
+              <div class="work-info">
+                <h2 class="work-name">Project Boxes</h2>
+                <span class="sample-spec">App</span>
+              </div></a
+            >
+          </li>
+          <li class="work-item">
+            <a href="">
+              <div class="work-content">
+                <img
+                  class="work-img"
+                  src="./images/website-2.webp"
+                  alt="Website sample 2"
+                />
+                <div class="work-description-wrapper">
+                  <p class="work-description">
+                    The resource offers comprehensive offers with different
+                    levels of functionality and services. All this will allow
+                    the visitor to get comprehensive information about a company
+                    or an individual.
+                  </p>
+                </div>
+              </div>
+
+              <div class="work-info">
+                <h2 class="work-name">Inspiration has no Borders</h2>
+                <span class="sample-spec">Website</span>
+              </div></a
+            >
+          </li>
+          <li class="work-item">
+            <a href="">
+              <div class="work-content">
+                <img
+                  class="work-img"
+                  src="./images/design-2.webp"
+                  alt="Design sample 2"
+                />
+                <div class="work-description-wrapper">
+                  <p class="work-description">
+                    The resource offers comprehensive offers with different
+                    levels of functionality and services. All this will allow
+                    the visitor to get comprehensive information about a company
+                    or an individual.
+                  </p>
+                </div>
+              </div>
+
+              <div class="work-info">
+                <h2 class="work-name">Issue Limited Edition</h2>
+                <span class="sample-spec">Design</span>
+              </div></a
+            >
+          </li>
+          <li class="work-item">
+            <a href="">
+              <div class="work-content">
+                <img
+                  class="work-img"
+                  src="./images/marketing-2.webp"
+                  alt="Marketing sample 2"
+                />
+                <div class="work-description-wrapper">
+                  <p class="work-description">
+                    The resource offers comprehensive offers with different
+                    levels of functionality and services. All this will allow
+                    the visitor to get comprehensive information about a company
+                    or an individual.
+                  </p>
+                </div>
+              </div>
+
+              <div class="work-info">
+                <h2 class="work-name">Project LAB</h2>
+                <span class="sample-spec">Marketing</span>
+              </div></a
+            >
+          </li>
+          <li class="work-item">
+            <a href="">
+              <div class="work-content">
+                <img
+                  class="work-img"
+                  src="./images/app-3.webp"
+                  alt="App sample 3"
+                />
+                <div class="work-description-wrapper">
+                  <p class="work-description">
+                    The resource offers comprehensive offers with different
+                    levels of functionality and services. All this will allow
+                    the visitor to get comprehensive information about a company
+                    or an individual.
+                  </p>
+                </div>
+              </div>
+
+              <div class="work-info">
+                <h2 class="work-name">Growing Business</h2>
+                <span class="sample-spec">App</span>
+              </div></a
+            >
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer id="footer" class="footer">
+      <div class="container footer-wrapper">
+        <div class="footer-top-inner">
+          <div class="">
+            <a class="logo logo-white-mode footer-logo" href="/"
+              ><span class="accent-logo-word">Web</span>Studio</a
+            >
+            <address>
+              <ul>
+                <li class="address-item">
+                  <a
+                    class="nav-link-footer address-color"
+                    href="https://www.google.com/maps/place/вулиця+Лесі+Українки,+26,+Київ,+02000/@50.5190802,30.4385136,17z/data=!3m1!4b1!4m6!3m5!1s0x40d4d29b9e369069:0xff64663a5fd75cd5!8m2!3d50.5190802!4d30.4385136!16s%2Fg%2F11hz60_tnl?entry=ttu&g_ep=EgoyMDI0MTEwNi4wIKXMDSoASAFQAw%3D%3D"
+                    >Kyiv, blvd Lesi Ukrainky, 26</a
+                  >
+                </li>
+                <li class="address-item">
+                  <a class="nav-link-footer" href="mailto:info@devstudio.com"
+                    >info@devstudio.com</a
+                  >
+                </li>
+                <li class="address-item">
+                  <a class="nav-link-footer" href="tel:+380961111111"
+                    >+38 096 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
+          </div>
+          <div>
+            <h3 class="footer-social-title">Join us</h3>
+            <ul class="footer-social-list">
+              <li class="footer-social-item">
+                <a class="footer-social-link" href="">
+                  <svg class="footer-social-link-icon">
+                    <use href="./images/sprite.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a class="footer-social-link" href="">
+                  <svg class="footer-social-link-icon">
+                    <use href="./images/sprite.svg#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a class="footer-social-link" href="">
+                  <svg class="footer-social-link-icon">
+                    <use href="./images/sprite.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a class="footer-social-link" href="">
+                  <svg class="footer-social-link-icon">
+                    <use href="./images/sprite.svg#linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom-inner">
+          <h3 class="footer-form-title">Subscribe to the newsletter</h3>
+          <div class="footer-form-wrapper">
+            <input class="footer-form" type="email" placeholder="E-mail" />
+            <button class="footer-subscribe-button">
+              Subscribe
+              <svg class="footer-subscribe-icon">
+                <use href="./images/sprite.svg#telegram"></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="./js/menu.js"></script>
+  </body>
+</html>

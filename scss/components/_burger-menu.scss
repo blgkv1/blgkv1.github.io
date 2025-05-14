@@ -1,0 +1,117 @@
+body.is-menu-open{
+  .header{
+    @media screen and (max-width: 767px) {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 150;
+      padding: 25px 10px;
+      background-color: #fff;
+    }
+  }
+
+  .header-inner{
+    @media screen and (max-width: 767px) {
+      height: 100%;
+      flex-direction: column;
+      align-items: start;
+      justify-content: space-between;
+    }
+  }
+
+  .navigation{
+    @media screen and (max-width: 767px) {
+      flex-direction: column;
+      height: auto;
+      align-items: start;
+    }
+  }
+
+  .burger-close-button{
+    @media screen and (max-width: 767px) {
+      display: block;
+    }
+  }
+
+  .item{
+    @media screen and (max-width: 767px) {
+      color: $accent-color;
+      text-align: center;
+      margin-right: 0;
+      font-size: 40px;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+    }
+  }
+
+  .nav-link.active::before{
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+
+  .logo{
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+
+  .burger-button{
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+
+  .list{
+    @media screen and (max-width: 767px) {
+      display: flex;
+      flex-direction: column;
+      gap: 36px;
+      align-items: start;
+    }
+  }
+
+  .contact-list{
+    @media screen and (max-width: 767px) {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 32px;
+    }
+  }
+  
+  .phone-link{
+    @media screen and (max-width: 767px) {
+      color: $accent-color;
+      font-size: 34px;
+    }
+
+    @media screen and (max-width: 400px) {
+      font-size: 28px;
+    }
+  }
+  
+  .email-link{
+    @media screen and (max-width: 767px) {
+      font-size: 24px;
+    }
+
+    @media screen and (max-width: 400px) {
+      font-size: 20px;
+    }
+  }
+
+  .header-social-list{
+    @media screen and (max-width: 767px) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+  .footer-form{
+    @media screen and (max-width: 767px) {
+      width: 100%;
+    }
+  }
+}

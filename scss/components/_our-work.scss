@@ -1,0 +1,50 @@
+.our-work {
+  padding-bottom: 94px;
+
+  @media screen and (max-width: 1023px) {
+    display: none;
+  }
+}
+
+.our-work-placeholder {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  justify-content: center;
+  padding: 27px 0px;
+
+  background-color: rgba(47, 48, 58, 0.8);
+}
+
+.our-work-placeholder-title {
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.our-work-title,
+.team-title,
+.customer-title {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #212121;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+}
+
+.our-work-list,
+.team-list {
+  gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.our-work-item {
+  position: relative;
+}

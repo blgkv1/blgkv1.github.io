@@ -1,0 +1,126 @@
+.sample {
+  padding: 94px 0px;
+
+  @media screen and (max-width: 1023px) {
+    padding: 60px 0;
+  }
+}
+
+.button-portfolio-group {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.portfolio-button {
+  padding: 6px 22px;
+
+  min-height: 38px;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+
+  background-color: #f5f4fa;
+  border: none;
+  border-radius: 4px;
+
+  transition: background-color 150ms linear, color 150ms linear,
+    box-shadow 150ms linear;
+  cursor: pointer;
+
+  &:hover, &:focus{
+    background-color: $accent-color;
+    color: #fff;
+    box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1),
+      0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+  }
+}
+
+.portfolio-navigation {
+  margin-bottom: 50px;
+}
+
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.work-item {
+  width: 370px;
+  height: 404px;
+  border: 1px solid #eee;
+
+  &:hover{
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12),
+      0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+  }
+
+  &:hover .work-description-wrapper{
+    transform: translateY(0%);
+    opacity: 1;
+  }
+
+  @media screen and (max-width: 767px) {
+    width: 100%;
+    height: auto;
+    max-height: 404px;
+  }
+}
+
+.work-img {
+  width: 370px;
+  height: 294px;
+
+  @media screen and (max-width: 767px){
+    width: 100%;
+    object-fit: cover;
+    max-height: 294px;
+  }
+}
+
+.work-content {
+  position: relative;
+  overflow: hidden;
+}
+
+.work-description-wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 24px;
+  background-color: rgba(33, 150, 243, 0.9);
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: transform 300ms linear, opacity 300ms linear;
+}
+
+.work-description {
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+}
+
+.work-info {
+  padding: 20px 24px;
+}
+
+.sample-spec {
+  color: #757575;
+}
+
+.work-name {
+  margin-bottom: 4px;
+  color: #212121;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+}
