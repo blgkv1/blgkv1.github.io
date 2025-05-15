@@ -1290,7 +1290,7 @@ body.is-modal-open .overlay {
   flex-wrap: wrap;
 }
 
-.portfolio-button {
+.portfolio-filter-button {
   padding: 6px 22px;
   min-height: 38px;
   font-family: "Roboto", sans-serif;
@@ -1302,7 +1302,7 @@ body.is-modal-open .overlay {
   transition: background-color 150ms linear, color 150ms linear, box-shadow 150ms linear;
   cursor: pointer;
 }
-.portfolio-button:hover, .portfolio-button:focus {
+.portfolio-filter-button:hover, .portfolio-filter-button:focus {
   background-color: #2196f3;
   color: #fff;
   box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
