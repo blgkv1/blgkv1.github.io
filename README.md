@@ -8,41 +8,7 @@ This project helped me practice HTML, SCSS, and a little JavaScript, all without
 
 ## Live Demo
 
-➡️ Coming soon on GitHub Pages
-
-
-## Technologies Used
-
-HTML5
-
-SCSS
-
-Vanilla JavaScript (a small amount)
-
-
-No frameworks or bundlers used
-
-
-## Features
-
-Responsive layout
-
-Modern design
-
-Custom SCSS styles
-
-Simple interactive elements
-
-
-## Lessons Learned
-
-Structuring HTML and styling with SCSS
-
-Building without frameworks
-
-Writing semantic and accessible code
-
-Preparing a project for GitHub Pages
+➡️ Coming soon on [Github Pages](https://pages.github.com/)
 
 
 ## How to Run Locally
@@ -53,6 +19,40 @@ cd web-studio-website
 open index.html
 ```
 Or simply open `index.html` in your browser(may not display correct).
+
+
+## Technologies Used
+
+- HTML5
+
+- SCSS
+
+- Vanilla JavaScript (a small amount)
+
+
+No frameworks or bundlers used
+
+
+## Features
+
+- Responsive layout
+
+- Modern design
+
+- Custom SCSS styles
+
+- Simple interactive elements
+
+
+## Lessons Learned
+
+- Structuring HTML and styling with SCSS
+
+- Building without frameworks
+
+- Writing semantic and accessible code
+
+- Preparing a project for GitHub Pages
 
 
 ## License
