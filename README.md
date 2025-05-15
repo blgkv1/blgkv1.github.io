@@ -1,4 +1,4 @@
-**WebStudio**
+# WebStudio
 
 WebStudio is a two-page website project I created as my first frontend project.
 It represents a fictional team of designers offering creative services.
@@ -6,12 +6,12 @@ It represents a fictional team of designers offering creative services.
 This project helped me practice HTML, SCSS, and a little JavaScript, all without a bundler. It was built with a focus on clean layout, responsive design, and with semantic structure.
 
 
-**Live Demo**
+## Live Demo
 
 ➡️ Coming soon on GitHub Pages
 
 
-**Technologies Used**
+## Technologies Used
 
 HTML5
 
@@ -23,7 +23,7 @@ Vanilla JavaScript (a small amount)
 No frameworks or bundlers used
 
 
-**Features**
+## Features
 
 Responsive layout
 
@@ -34,7 +34,7 @@ Custom SCSS styles
 Simple interactive elements
 
 
-**Lessons Learned**
+## Lessons Learned
 
 Structuring HTML and styling with SCSS
 
@@ -45,7 +45,7 @@ Writing semantic and accessible code
 Preparing a project for GitHub Pages
 
 
-**How to Run Locally**
+## How to Run Locally
 
 ```
 git clone https://github.com/blgkv1/web-studi-website.git
@@ -55,6 +55,6 @@ open index.html
 Or simply open `index.html` in your browser(may not display correct).
 
 
-**License**
+## License
 
 This project is for learning purposes only and is not intended for commercial use.
