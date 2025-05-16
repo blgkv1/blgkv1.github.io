@@ -8,7 +8,7 @@ This project helped me practice HTML, SCSS, and a little JavaScript, all without
 
 ## Live Demo
 
-[Web Studio](https://blgkv1.github.io)
+[Web Studio](https://blgkv1.github.io/web-studio/)
 
 
 ## How to Run Locally
