@@ -14,12 +14,12 @@ This project helped me practice HTML, SCSS, and a little JavaScript, all without
 ## How to Run Locally
 
 ```
-git clone https://github.com/blgkv1/web-studi-website.git
-cd web-studio-website
+git clone https://github.com/blgkv1/web-studio.git
+cd web-studio
 open index.html
 ```
 Or simply open `index.html` in your browser(may not display correct).
-
+Better is to use `Live Server` extension for your compiler.
 
 ## Technologies Used
 
